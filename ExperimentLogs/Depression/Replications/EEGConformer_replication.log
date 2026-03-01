@@ -1,0 +1,1017 @@
+###################### Fold 1 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.39273786544799805, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.22377604246139526, validate accuracy: 0.9547619047619048, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 2
+Train loss: 0.4143306314945221, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.16008608043193817, validate accuracy: 0.9857142857142858, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 3
+Train loss: 0.3943915367126465, train accuracy: 0.859375
+Validating:
+Validate loss: 0.17793959379196167, validate accuracy: 0.9833333333333333, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 4
+Train loss: 0.470917284488678, train accuracy: 0.7890625
+Validating:
+Validate loss: 0.2028118371963501, validate accuracy: 0.9738095238095238, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 5
+Train loss: 0.44396671652793884, train accuracy: 0.8203125
+Validating:
+Validate loss: 0.29757073521614075, validate accuracy: 0.9642857142857143, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 6
+Train loss: 0.4599813222885132, train accuracy: 0.796875
+Validating:
+Validate loss: 0.21940553188323975, validate accuracy: 0.9714285714285714, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 7
+Train loss: 0.4174773693084717, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.1752689778804779, validate accuracy: 0.9904761904761905, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 8
+Train loss: 0.2799749970436096, train accuracy: 0.9296875
+Validating:
+Validate loss: 0.18153582513332367, validate accuracy: 0.9761904761904762, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 9
+Train loss: 0.45679521560668945, train accuracy: 0.8203125
+Validating:
+Validate loss: 0.21372045576572418, validate accuracy: 0.9857142857142858, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 10
+Train loss: 0.3880312740802765, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.18063503503799438, validate accuracy: 0.9952380952380953, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 11
+Train loss: 0.48860469460487366, train accuracy: 0.796875
+Validating:
+Validate loss: 0.191353902220726, validate accuracy: 0.9833333333333333, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 12
+Train loss: 0.36843299865722656, train accuracy: 0.828125
+Validating:
+Validate loss: 0.17521391808986664, validate accuracy: 0.9952380952380953, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 13
+Train loss: 0.36405912041664124, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.1721540093421936, validate accuracy: 0.9809523809523809, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 14
+Train loss: 0.4546375274658203, train accuracy: 0.8125
+Validating:
+Validate loss: 0.1623842418193817, validate accuracy: 0.9952380952380953, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 15
+Train loss: 0.3229186534881592, train accuracy: 0.921875
+Validating:
+Validate loss: 0.18444275856018066, validate accuracy: 0.9857142857142858, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 16
+Train loss: 0.4175800085067749, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.22392383217811584, validate accuracy: 0.9880952380952381, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 17
+Train loss: 0.4023935794830322, train accuracy: 0.828125
+Validating:
+Validate loss: 0.18526729941368103, validate accuracy: 0.9880952380952381, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 18
+Train loss: 0.42912882566452026, train accuracy: 0.8203125
+Validating:
+Validate loss: 0.20341889560222626, validate accuracy: 0.9523809523809523, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 19
+Train loss: 0.39258673787117004, train accuracy: 0.828125
+Validating:
+Validate loss: 0.21471282839775085, validate accuracy: 0.9880952380952381, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 20
+Train loss: 0.41342347860336304, train accuracy: 0.84375
+Validating:
+Validate loss: 0.16883212327957153, validate accuracy: 0.9809523809523809, ensemble accuracy: 1.0, F1: 1.0.
+Training Finished.
+############ Fold 1 Network accuracy: 1.0
+###################### Fold 2 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.491067111492157, train accuracy: 0.828125
+Validating:
+Validate loss: 0.41287943720817566, validate accuracy: 0.8761904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 2
+Train loss: 0.4749862253665924, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.40772581100463867, validate accuracy: 0.8642857142857143, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 3
+Train loss: 0.4560053050518036, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.4485012888908386, validate accuracy: 0.8333333333333334, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 4
+Train loss: 0.4403896927833557, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.3983871638774872, validate accuracy: 0.830952380952381, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 5
+Train loss: 0.4337058961391449, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5196143984794617, validate accuracy: 0.819047619047619, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 6
+Train loss: 0.32101309299468994, train accuracy: 0.890625
+Validating:
+Validate loss: 0.675518274307251, validate accuracy: 0.7976190476190477, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 7
+Train loss: 0.4101073741912842, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.570244550704956, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 8
+Train loss: 0.4301593005657196, train accuracy: 0.828125
+Validating:
+Validate loss: 0.5713369250297546, validate accuracy: 0.7595238095238095, ensemble accuracy: 0.7333333333333333, F1: 0.7142857142857143.
+Epoch 9
+Train loss: 0.38948339223861694, train accuracy: 0.84375
+Validating:
+Validate loss: 0.49942851066589355, validate accuracy: 0.8452380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 10
+Train loss: 0.37399446964263916, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.5175269842147827, validate accuracy: 0.8452380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 11
+Train loss: 0.3429276943206787, train accuracy: 0.875
+Validating:
+Validate loss: 0.6982888579368591, validate accuracy: 0.8214285714285714, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 12
+Train loss: 0.3111101984977722, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.8105273246765137, validate accuracy: 0.8285714285714286, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 13
+Train loss: 0.3416840434074402, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.6270217895507812, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 14
+Train loss: 0.42127177119255066, train accuracy: 0.859375
+Validating:
+Validate loss: 0.7860706448554993, validate accuracy: 0.8214285714285714, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 15
+Train loss: 0.33935245871543884, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5957648754119873, validate accuracy: 0.8452380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 16
+Train loss: 0.36051616072654724, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.5999358296394348, validate accuracy: 0.8, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 17
+Train loss: 0.3672291040420532, train accuracy: 0.875
+Validating:
+Validate loss: 0.8429730534553528, validate accuracy: 0.7952380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 18
+Train loss: 0.40111061930656433, train accuracy: 0.859375
+Validating:
+Validate loss: 0.6374050974845886, validate accuracy: 0.8166666666666667, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 19
+Train loss: 0.35896310210227966, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.8578366041183472, validate accuracy: 0.7976190476190477, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 20
+Train loss: 0.39085403084754944, train accuracy: 0.859375
+Validating:
+Validate loss: 0.6747239232063293, validate accuracy: 0.819047619047619, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Training Finished.
+############ Fold 2 Network accuracy: 0.8666666666666667
+###################### Fold 3 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.42423006892204285, train accuracy: 0.859375
+Validating:
+Validate loss: 0.509223222732544, validate accuracy: 0.8285714285714286, ensemble accuracy: 0.8666666666666667, F1: 0.75.
+Epoch 2
+Train loss: 0.4383070170879364, train accuracy: 0.859375
+Validating:
+Validate loss: 0.4904796779155731, validate accuracy: 0.830952380952381, ensemble accuracy: 0.8666666666666667, F1: 0.75.
+Epoch 3
+Train loss: 0.4361690878868103, train accuracy: 0.828125
+Validating:
+Validate loss: 0.5447269678115845, validate accuracy: 0.7976190476190477, ensemble accuracy: 0.8, F1: 0.7272727272727273.
+Epoch 4
+Train loss: 0.38240838050842285, train accuracy: 0.859375
+Validating:
+Validate loss: 0.49295520782470703, validate accuracy: 0.7904761904761904, ensemble accuracy: 0.7333333333333333, F1: 0.6.
+Epoch 5
+Train loss: 0.4209684431552887, train accuracy: 0.828125
+Validating:
+Validate loss: 0.5002668499946594, validate accuracy: 0.8261904761904761, ensemble accuracy: 0.8666666666666667, F1: 0.75.
+Epoch 6
+Train loss: 0.3752690553665161, train accuracy: 0.859375
+Validating:
+Validate loss: 0.6969077587127686, validate accuracy: 0.75, ensemble accuracy: 0.7333333333333333, F1: 0.6.
+Epoch 7
+Train loss: 0.3361075818538666, train accuracy: 0.875
+Validating:
+Validate loss: 0.508184552192688, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8666666666666667, F1: 0.75.
+Epoch 8
+Train loss: 0.43693962693214417, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5368614196777344, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8666666666666667, F1: 0.75.
+Epoch 9
+Train loss: 0.39614540338516235, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.584829568862915, validate accuracy: 0.8047619047619048, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 10
+Train loss: 0.3819122016429901, train accuracy: 0.84375
+Validating:
+Validate loss: 0.48535171151161194, validate accuracy: 0.8452380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.75.
+Epoch 11
+Train loss: 0.4586373567581177, train accuracy: 0.78125
+Validating:
+Validate loss: 0.5635138154029846, validate accuracy: 0.8047619047619048, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 12
+Train loss: 0.3328603506088257, train accuracy: 0.890625
+Validating:
+Validate loss: 0.583896815776825, validate accuracy: 0.8333333333333334, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 13
+Train loss: 0.30094200372695923, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5927749276161194, validate accuracy: 0.8166666666666667, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 14
+Train loss: 0.4942724108695984, train accuracy: 0.8125
+Validating:
+Validate loss: 0.6557814478874207, validate accuracy: 0.8071428571428572, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 15
+Train loss: 0.3890478014945984, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5545235872268677, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8666666666666667, F1: 0.75.
+Epoch 16
+Train loss: 0.35778990387916565, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.6709977388381958, validate accuracy: 0.7619047619047619, ensemble accuracy: 0.7333333333333333, F1: 0.6.
+Epoch 17
+Train loss: 0.4179379642009735, train accuracy: 0.828125
+Validating:
+Validate loss: 0.5836051106452942, validate accuracy: 0.8238095238095238, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 18
+Train loss: 0.3918849229812622, train accuracy: 0.875
+Validating:
+Validate loss: 0.6098619103431702, validate accuracy: 0.7952380952380952, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 19
+Train loss: 0.3668273091316223, train accuracy: 0.875
+Validating:
+Validate loss: 0.5806905627250671, validate accuracy: 0.8095238095238095, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Epoch 20
+Train loss: 0.4074339270591736, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.6411218643188477, validate accuracy: 0.8071428571428572, ensemble accuracy: 0.8, F1: 0.6666666666666666.
+Training Finished.
+############ Fold 3 Network accuracy: 0.8
+###################### Fold 4 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.38577476143836975, train accuracy: 0.875
+Validating:
+Validate loss: 0.48544058203697205, validate accuracy: 0.8, ensemble accuracy: 0.7333333333333333, F1: 0.75.
+Epoch 2
+Train loss: 0.6352294683456421, train accuracy: 0.78125
+Validating:
+Validate loss: 0.524006724357605, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 3
+Train loss: 0.40780729055404663, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.46307244896888733, validate accuracy: 0.8476190476190476, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 4
+Train loss: 0.3092471659183502, train accuracy: 0.90625
+Validating:
+Validate loss: 0.45012393593788147, validate accuracy: 0.8404761904761905, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 5
+Train loss: 0.33784130215644836, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5070972442626953, validate accuracy: 0.8571428571428571, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 6
+Train loss: 0.37724894285202026, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5424318313598633, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 7
+Train loss: 0.3993626832962036, train accuracy: 0.8203125
+Validating:
+Validate loss: 0.5212010741233826, validate accuracy: 0.7952380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 8
+Train loss: 0.37170326709747314, train accuracy: 0.859375
+Validating:
+Validate loss: 0.5043181777000427, validate accuracy: 0.8142857142857143, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 9
+Train loss: 0.3400219976902008, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.41206085681915283, validate accuracy: 0.7761904761904762, ensemble accuracy: 0.6666666666666666, F1: 0.7058823529411765.
+Epoch 10
+Train loss: 0.3756116032600403, train accuracy: 0.875
+Validating:
+Validate loss: 0.44633176922798157, validate accuracy: 0.8476190476190476, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 11
+Train loss: 0.3738263249397278, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.47338584065437317, validate accuracy: 0.8452380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 12
+Train loss: 0.37595853209495544, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.4375309348106384, validate accuracy: 0.8071428571428572, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 13
+Train loss: 0.36747032403945923, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.6374379396438599, validate accuracy: 0.85, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 14
+Train loss: 0.5258840322494507, train accuracy: 0.8203125
+Validating:
+Validate loss: 0.4924279749393463, validate accuracy: 0.8404761904761905, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 15
+Train loss: 0.37422478199005127, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.5037367939949036, validate accuracy: 0.8523809523809524, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 16
+Train loss: 0.3982066810131073, train accuracy: 0.859375
+Validating:
+Validate loss: 0.49242210388183594, validate accuracy: 0.8261904761904761, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 17
+Train loss: 0.28425803780555725, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.5577723979949951, validate accuracy: 0.7952380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 18
+Train loss: 0.3020675778388977, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.5742899775505066, validate accuracy: 0.8261904761904761, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 19
+Train loss: 0.4123673141002655, train accuracy: 0.84375
+Validating:
+Validate loss: 0.4396166503429413, validate accuracy: 0.8547619047619047, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 20
+Train loss: 0.3134143650531769, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.46594730019569397, validate accuracy: 0.8047619047619048, ensemble accuracy: 0.8, F1: 0.8.
+Training Finished.
+############ Fold 4 Network accuracy: 0.8
+###################### Fold 5 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.3977257013320923, train accuracy: 0.875
+Validating:
+Validate loss: 0.46709227561950684, validate accuracy: 0.8476190476190476, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 2
+Train loss: 0.4250301122665405, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.4358556866645813, validate accuracy: 0.888095238095238, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 3
+Train loss: 0.5119991898536682, train accuracy: 0.8046875
+Validating:
+Validate loss: 0.5520380139350891, validate accuracy: 0.861904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 4
+Train loss: 0.3724013566970825, train accuracy: 0.890625
+Validating:
+Validate loss: 0.5776659250259399, validate accuracy: 0.8904761904761904, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 5
+Train loss: 0.46681898832321167, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.4364005923271179, validate accuracy: 0.8714285714285714, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 6
+Train loss: 0.4091811180114746, train accuracy: 0.796875
+Validating:
+Validate loss: 0.4971849322319031, validate accuracy: 0.8714285714285714, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 7
+Train loss: 0.35909613966941833, train accuracy: 0.875
+Validating:
+Validate loss: 0.5026623010635376, validate accuracy: 0.8785714285714286, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 8
+Train loss: 0.3402893543243408, train accuracy: 0.890625
+Validating:
+Validate loss: 0.4927511215209961, validate accuracy: 0.8523809523809524, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 9
+Train loss: 0.3417367935180664, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.529640257358551, validate accuracy: 0.8714285714285714, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 10
+Train loss: 0.5096322894096375, train accuracy: 0.7890625
+Validating:
+Validate loss: 0.5619025826454163, validate accuracy: 0.8738095238095238, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 11
+Train loss: 0.2909895181655884, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.6095080375671387, validate accuracy: 0.8571428571428571, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 12
+Train loss: 0.36539027094841003, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.53746098279953, validate accuracy: 0.8571428571428571, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 13
+Train loss: 0.4377109408378601, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5019556283950806, validate accuracy: 0.8666666666666667, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 14
+Train loss: 0.32850944995880127, train accuracy: 0.890625
+Validating:
+Validate loss: 0.5328055620193481, validate accuracy: 0.8357142857142857, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 15
+Train loss: 0.4324350953102112, train accuracy: 0.828125
+Validating:
+Validate loss: 0.509779691696167, validate accuracy: 0.8238095238095238, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 16
+Train loss: 0.3090416491031647, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.5197858810424805, validate accuracy: 0.861904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 17
+Train loss: 0.4168803095817566, train accuracy: 0.828125
+Validating:
+Validate loss: 0.5580397248268127, validate accuracy: 0.8452380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 18
+Train loss: 0.3962256908416748, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5849732160568237, validate accuracy: 0.8333333333333334, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 19
+Train loss: 0.29166775941848755, train accuracy: 0.9375
+Validating:
+Validate loss: 0.48974746465682983, validate accuracy: 0.8690476190476191, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 20
+Train loss: 0.34093013405799866, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.48842763900756836, validate accuracy: 0.8571428571428571, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Training Finished.
+############ Fold 5 Network accuracy: 0.8666666666666667
+###################### Fold 6 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.5562334060668945, train accuracy: 0.7265625
+Validating:
+Validate loss: 0.414619505405426, validate accuracy: 0.8380952380952381, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 2
+Train loss: 0.49761855602264404, train accuracy: 0.8046875
+Validating:
+Validate loss: 0.4426320195198059, validate accuracy: 0.8357142857142857, ensemble accuracy: 0.8, F1: 0.7272727272727273.
+Epoch 3
+Train loss: 0.39129820466041565, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.4038337171077728, validate accuracy: 0.861904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 4
+Train loss: 0.42127200961112976, train accuracy: 0.84375
+Validating:
+Validate loss: 0.3811739981174469, validate accuracy: 0.8404761904761905, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 5
+Train loss: 0.4913662075996399, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.4467679262161255, validate accuracy: 0.8595238095238096, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 6
+Train loss: 0.4042911231517792, train accuracy: 0.859375
+Validating:
+Validate loss: 0.4204843044281006, validate accuracy: 0.8357142857142857, ensemble accuracy: 0.8666666666666667, F1: 0.8.
+Epoch 7
+Train loss: 0.4348834455013275, train accuracy: 0.8203125
+Validating:
+Validate loss: 0.4264899492263794, validate accuracy: 0.8571428571428571, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 8
+Train loss: 0.336162269115448, train accuracy: 0.890625
+Validating:
+Validate loss: 0.4459238648414612, validate accuracy: 0.8380952380952381, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 9
+Train loss: 0.4016832709312439, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.48916029930114746, validate accuracy: 0.8333333333333334, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 10
+Train loss: 0.3586280047893524, train accuracy: 0.859375
+Validating:
+Validate loss: 0.37985286116600037, validate accuracy: 0.8523809523809524, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 11
+Train loss: 0.278648316860199, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.4043993353843689, validate accuracy: 0.85, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 12
+Train loss: 0.46350669860839844, train accuracy: 0.859375
+Validating:
+Validate loss: 0.4218562841415405, validate accuracy: 0.861904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 13
+Train loss: 0.4366632401943207, train accuracy: 0.78125
+Validating:
+Validate loss: 0.39335429668426514, validate accuracy: 0.8595238095238096, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 14
+Train loss: 0.3630543649196625, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.37053215503692627, validate accuracy: 0.861904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 15
+Train loss: 0.3666149079799652, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.3561535179615021, validate accuracy: 0.8976190476190476, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 16
+Train loss: 0.3484484851360321, train accuracy: 0.90625
+Validating:
+Validate loss: 0.4470040202140808, validate accuracy: 0.8666666666666667, ensemble accuracy: 0.8666666666666667, F1: 0.8333333333333334.
+Epoch 17
+Train loss: 0.38663965463638306, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.4313230812549591, validate accuracy: 0.8547619047619047, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 18
+Train loss: 0.3240686357021332, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.40367117524147034, validate accuracy: 0.8761904761904762, ensemble accuracy: 0.9333333333333333, F1: 0.9090909090909091.
+Epoch 19
+Train loss: 0.3775371015071869, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.47729912400245667, validate accuracy: 0.861904761904762, ensemble accuracy: 0.9333333333333333, F1: 0.9090909090909091.
+Epoch 20
+Train loss: 0.554492175579071, train accuracy: 0.796875
+Validating:
+Validate loss: 0.5060175657272339, validate accuracy: 0.8452380952380952, ensemble accuracy: 0.8666666666666667, F1: 0.8.
+Training Finished.
+############ Fold 6 Network accuracy: 0.8666666666666667
+###################### Fold 7 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.4106650948524475, train accuracy: 0.875
+Validating:
+Validate loss: 0.6491689085960388, validate accuracy: 0.7547619047619047, ensemble accuracy: 0.7333333333333333, F1: 0.7777777777777778.
+Epoch 2
+Train loss: 0.3417486846446991, train accuracy: 0.890625
+Validating:
+Validate loss: 0.6439610123634338, validate accuracy: 0.7761904761904762, ensemble accuracy: 0.7333333333333333, F1: 0.75.
+Epoch 3
+Train loss: 0.3439277410507202, train accuracy: 0.875
+Validating:
+Validate loss: 0.6065025329589844, validate accuracy: 0.7642857142857142, ensemble accuracy: 0.7333333333333333, F1: 0.75.
+Epoch 4
+Train loss: 0.442960262298584, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.6359811425209045, validate accuracy: 0.7642857142857142, ensemble accuracy: 0.7333333333333333, F1: 0.75.
+Epoch 5
+Train loss: 0.4091113209724426, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5445972084999084, validate accuracy: 0.7761904761904762, ensemble accuracy: 0.8, F1: 0.8235294117647058.
+Epoch 6
+Train loss: 0.4539177417755127, train accuracy: 0.828125
+Validating:
+Validate loss: 0.527801513671875, validate accuracy: 0.75, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 7
+Train loss: 0.35380008816719055, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.48387056589126587, validate accuracy: 0.7547619047619047, ensemble accuracy: 0.8, F1: 0.8235294117647058.
+Epoch 8
+Train loss: 0.32645919919013977, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5156471729278564, validate accuracy: 0.7571428571428571, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 9
+Train loss: 0.4118407070636749, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.5178581476211548, validate accuracy: 0.7714285714285715, ensemble accuracy: 0.8, F1: 0.8235294117647058.
+Epoch 10
+Train loss: 0.33511286973953247, train accuracy: 0.90625
+Validating:
+Validate loss: 0.5149948000907898, validate accuracy: 0.7690476190476191, ensemble accuracy: 0.8, F1: 0.8235294117647058.
+Epoch 11
+Train loss: 0.34874895215034485, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.4770481288433075, validate accuracy: 0.7690476190476191, ensemble accuracy: 0.8, F1: 0.8235294117647058.
+Epoch 12
+Train loss: 0.3342607319355011, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.5146709680557251, validate accuracy: 0.7761904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 13
+Train loss: 0.33324071764945984, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.5317578911781311, validate accuracy: 0.7857142857142857, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 14
+Train loss: 0.3639068901538849, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.4743995666503906, validate accuracy: 0.7833333333333333, ensemble accuracy: 0.8, F1: 0.8235294117647058.
+Epoch 15
+Train loss: 0.44476258754730225, train accuracy: 0.875
+Validating:
+Validate loss: 0.5123544931411743, validate accuracy: 0.7904761904761904, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 16
+Train loss: 0.3958755135536194, train accuracy: 0.875
+Validating:
+Validate loss: 0.4923172891139984, validate accuracy: 0.7523809523809524, ensemble accuracy: 0.7333333333333333, F1: 0.75.
+Epoch 17
+Train loss: 0.38600096106529236, train accuracy: 0.84375
+Validating:
+Validate loss: 0.5718739032745361, validate accuracy: 0.7333333333333333, ensemble accuracy: 0.8, F1: 0.8235294117647058.
+Epoch 18
+Train loss: 0.321353942155838, train accuracy: 0.90625
+Validating:
+Validate loss: 0.49514469504356384, validate accuracy: 0.8261904761904761, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 19
+Train loss: 0.32621002197265625, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5755495429039001, validate accuracy: 0.7547619047619047, ensemble accuracy: 0.7333333333333333, F1: 0.75.
+Epoch 20
+Train loss: 0.3019193410873413, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5578708648681641, validate accuracy: 0.8, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Training Finished.
+############ Fold 7 Network accuracy: 0.8666666666666667
+###################### Fold 8 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.6244927644729614, train accuracy: 0.7109375
+Validating:
+Validate loss: 0.7597246766090393, validate accuracy: 0.7928571428571428, ensemble accuracy: 0.7333333333333333, F1: 0.7777777777777778.
+Epoch 2
+Train loss: 0.3590703308582306, train accuracy: 0.875
+Validating:
+Validate loss: 0.5502448081970215, validate accuracy: 0.8166666666666667, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 3
+Train loss: 0.4956100881099701, train accuracy: 0.78125
+Validating:
+Validate loss: 0.7363263368606567, validate accuracy: 0.7333333333333333, ensemble accuracy: 0.6666666666666666, F1: 0.7368421052631579.
+Epoch 4
+Train loss: 0.4272519648075104, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.49441125988960266, validate accuracy: 0.8166666666666667, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 5
+Train loss: 0.3707183599472046, train accuracy: 0.859375
+Validating:
+Validate loss: 0.5262435078620911, validate accuracy: 0.7928571428571428, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 6
+Train loss: 0.4078054428100586, train accuracy: 0.84375
+Validating:
+Validate loss: 0.4986540675163269, validate accuracy: 0.7738095238095238, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 7
+Train loss: 0.40476855635643005, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.45970064401626587, validate accuracy: 0.8214285714285714, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 8
+Train loss: 0.3343784809112549, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5168346166610718, validate accuracy: 0.7761904761904762, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 9
+Train loss: 0.342599481344223, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.48537692427635193, validate accuracy: 0.7904761904761904, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 10
+Train loss: 0.4550129175186157, train accuracy: 0.7734375
+Validating:
+Validate loss: 0.5134408473968506, validate accuracy: 0.8095238095238095, ensemble accuracy: 0.8, F1: 0.8.
+Epoch 11
+Train loss: 0.42094701528549194, train accuracy: 0.84375
+Validating:
+Validate loss: 0.4959101378917694, validate accuracy: 0.8261904761904761, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 12
+Train loss: 0.3820103406906128, train accuracy: 0.84375
+Validating:
+Validate loss: 0.6196571588516235, validate accuracy: 0.7880952380952381, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 13
+Train loss: 0.3200535476207733, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.532267689704895, validate accuracy: 0.8119047619047619, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 14
+Train loss: 0.2678939700126648, train accuracy: 0.9296875
+Validating:
+Validate loss: 0.6162604093551636, validate accuracy: 0.8095238095238095, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 15
+Train loss: 0.36533161997795105, train accuracy: 0.890625
+Validating:
+Validate loss: 0.584819495677948, validate accuracy: 0.7976190476190477, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 16
+Train loss: 0.3722868263721466, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.5695877075195312, validate accuracy: 0.7880952380952381, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 17
+Train loss: 0.3916681110858917, train accuracy: 0.875
+Validating:
+Validate loss: 0.5083212852478027, validate accuracy: 0.819047619047619, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 18
+Train loss: 0.39714184403419495, train accuracy: 0.8125
+Validating:
+Validate loss: 0.47990065813064575, validate accuracy: 0.8380952380952381, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 19
+Train loss: 0.3923988938331604, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.4857117235660553, validate accuracy: 0.8095238095238095, ensemble accuracy: 0.8, F1: 0.7692307692307693.
+Epoch 20
+Train loss: 0.3245440125465393, train accuracy: 0.890625
+Validating:
+Validate loss: 0.5991100072860718, validate accuracy: 0.7976190476190477, ensemble accuracy: 0.8, F1: 0.8.
+Training Finished.
+############ Fold 8 Network accuracy: 0.8
+###################### Fold 9 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.4268091320991516, train accuracy: 0.8203125
+Validating:
+Validate loss: 0.48284202814102173, validate accuracy: 0.7928571428571428, ensemble accuracy: 0.8666666666666667, F1: 0.875.
+Epoch 2
+Train loss: 0.41838502883911133, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.5621421337127686, validate accuracy: 0.8261904761904761, ensemble accuracy: 0.8, F1: 0.8421052631578947.
+Epoch 3
+Train loss: 0.4262627065181732, train accuracy: 0.8125
+Validating:
+Validate loss: 0.5214849710464478, validate accuracy: 0.7119047619047619, ensemble accuracy: 0.6666666666666666, F1: 0.7619047619047619.
+Epoch 4
+Train loss: 0.4121048152446747, train accuracy: 0.828125
+Validating:
+Validate loss: 0.4418659508228302, validate accuracy: 0.8333333333333334, ensemble accuracy: 0.8666666666666667, F1: 0.8571428571428571.
+Epoch 5
+Train loss: 0.35830533504486084, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.4585101306438446, validate accuracy: 0.7476190476190476, ensemble accuracy: 0.6666666666666666, F1: 0.7619047619047619.
+Epoch 6
+Train loss: 0.4591364860534668, train accuracy: 0.8359375
+Validating:
+Validate loss: 0.40121063590049744, validate accuracy: 0.8428571428571429, ensemble accuracy: 0.8, F1: 0.8421052631578947.
+Epoch 7
+Train loss: 0.5153420567512512, train accuracy: 0.7734375
+Validating:
+Validate loss: 0.3949545919895172, validate accuracy: 0.8404761904761905, ensemble accuracy: 0.8, F1: 0.8421052631578947.
+Epoch 8
+Train loss: 0.4199307858943939, train accuracy: 0.84375
+Validating:
+Validate loss: 0.3812286853790283, validate accuracy: 0.85, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 9
+Train loss: 0.3262785077095032, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.39278820157051086, validate accuracy: 0.8642857142857143, ensemble accuracy: 0.8666666666666667, F1: 0.8888888888888888.
+Epoch 10
+Train loss: 0.38053178787231445, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.38019105792045593, validate accuracy: 0.861904761904762, ensemble accuracy: 0.9333333333333333, F1: 0.9411764705882353.
+Epoch 11
+Train loss: 0.3417382836341858, train accuracy: 0.859375
+Validating:
+Validate loss: 0.3754158020019531, validate accuracy: 0.8857142857142857, ensemble accuracy: 0.9333333333333333, F1: 0.9411764705882353.
+Epoch 12
+Train loss: 0.3691258132457733, train accuracy: 0.890625
+Validating:
+Validate loss: 0.39127999544143677, validate accuracy: 0.8047619047619048, ensemble accuracy: 0.8666666666666667, F1: 0.8888888888888888.
+Epoch 13
+Train loss: 0.36335283517837524, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.3770374655723572, validate accuracy: 0.8523809523809524, ensemble accuracy: 0.9333333333333333, F1: 0.9333333333333333.
+Epoch 14
+Train loss: 0.33007246255874634, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.4177335500717163, validate accuracy: 0.8214285714285714, ensemble accuracy: 0.8, F1: 0.8421052631578947.
+Epoch 15
+Train loss: 0.37580040097236633, train accuracy: 0.859375
+Validating:
+Validate loss: 0.39865005016326904, validate accuracy: 0.8166666666666667, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 16
+Train loss: 0.4311128258705139, train accuracy: 0.859375
+Validating:
+Validate loss: 0.43433427810668945, validate accuracy: 0.8285714285714286, ensemble accuracy: 0.8, F1: 0.8421052631578947.
+Epoch 17
+Train loss: 0.4489895701408386, train accuracy: 0.828125
+Validating:
+Validate loss: 0.39837148785591125, validate accuracy: 0.861904761904762, ensemble accuracy: 0.8, F1: 0.8421052631578947.
+Epoch 18
+Train loss: 0.35828664898872375, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.36380165815353394, validate accuracy: 0.8285714285714286, ensemble accuracy: 0.9333333333333333, F1: 0.9411764705882353.
+Epoch 19
+Train loss: 0.27532076835632324, train accuracy: 0.8984375
+Validating:
+Validate loss: 0.3882027268409729, validate accuracy: 0.8571428571428571, ensemble accuracy: 1.0, F1: 1.0.
+Epoch 20
+Train loss: 0.3430290222167969, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.4203895926475525, validate accuracy: 0.8714285714285714, ensemble accuracy: 1.0, F1: 1.0.
+Training Finished.
+############ Fold 9 Network accuracy: 1.0
+###################### Fold 10 ######################
+Use CUDA
+log location: logs
+Optimizer configuration:
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Trainer Initialization Finished.
+Epoch 1
+Train loss: 0.4459218978881836, train accuracy: 0.84375
+Validating:
+Validate loss: 0.68461510298415, validate accuracy: 0.8074534161490683, ensemble accuracy: 0.8260869565217391, F1: 0.7777777777777778.
+Epoch 2
+Train loss: 0.4486514627933502, train accuracy: 0.828125
+Validating:
+Validate loss: 0.6227267869511006, validate accuracy: 0.7717391304347826, ensemble accuracy: 0.782608695652174, F1: 0.6666666666666666.
+Epoch 3
+Train loss: 0.43693360686302185, train accuracy: 0.8125
+Validating:
+Validate loss: 0.6077038301444202, validate accuracy: 0.8059006211180124, ensemble accuracy: 0.8260869565217391, F1: 0.7777777777777778.
+Epoch 4
+Train loss: 0.3533739447593689, train accuracy: 0.875
+Validating:
+Validate loss: 0.6623573458713033, validate accuracy: 0.7779503105590062, ensemble accuracy: 0.8260869565217391, F1: 0.75.
+Epoch 5
+Train loss: 0.4496597349643707, train accuracy: 0.828125
+Validating:
+Validate loss: 0.643800279368525, validate accuracy: 0.7779503105590062, ensemble accuracy: 0.8260869565217391, F1: 0.75.
+Epoch 6
+Train loss: 0.3727799654006958, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.526658066311238, validate accuracy: 0.7795031055900621, ensemble accuracy: 0.782608695652174, F1: 0.7058823529411765.
+Epoch 7
+Train loss: 0.414224237203598, train accuracy: 0.84375
+Validating:
+Validate loss: 0.541430605864673, validate accuracy: 0.7670807453416149, ensemble accuracy: 0.782608695652174, F1: 0.7058823529411765.
+Epoch 8
+Train loss: 0.4300042688846588, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.6147358606320731, validate accuracy: 0.7748447204968945, ensemble accuracy: 0.782608695652174, F1: 0.7058823529411765.
+Epoch 9
+Train loss: 0.42520976066589355, train accuracy: 0.8671875
+Validating:
+Validate loss: 0.6372469341532784, validate accuracy: 0.7453416149068323, ensemble accuracy: 0.7391304347826086, F1: 0.6666666666666666.
+Epoch 10
+Train loss: 0.33762818574905396, train accuracy: 0.875
+Validating:
+Validate loss: 0.5782771625133775, validate accuracy: 0.7686335403726708, ensemble accuracy: 0.7391304347826086, F1: 0.625.
+Epoch 11
+Train loss: 0.33042508363723755, train accuracy: 0.8828125
+Validating:
+Validate loss: 0.6458877650847347, validate accuracy: 0.7158385093167702, ensemble accuracy: 0.7391304347826086, F1: 0.625.
+Epoch 12
+Train loss: 0.3878617286682129, train accuracy: 0.875
+Validating:
+Validate loss: 0.6727430383611169, validate accuracy: 0.7080745341614907, ensemble accuracy: 0.7391304347826086, F1: 0.6666666666666666.
+Epoch 13
+Train loss: 0.3708333969116211, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.737507106354518, validate accuracy: 0.7422360248447205, ensemble accuracy: 0.7391304347826086, F1: 0.6666666666666666.
+Epoch 14
+Train loss: 0.3099541664123535, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.6966487502459413, validate accuracy: 0.7298136645962733, ensemble accuracy: 0.7391304347826086, F1: 0.6666666666666666.
+Epoch 15
+Train loss: 0.37534961104393005, train accuracy: 0.84375
+Validating:
+Validate loss: 0.7582973774915897, validate accuracy: 0.7142857142857143, ensemble accuracy: 0.7391304347826086, F1: 0.6666666666666666.
+Epoch 16
+Train loss: 0.3168804943561554, train accuracy: 0.9140625
+Validating:
+Validate loss: 0.8516081208768098, validate accuracy: 0.6909937888198758, ensemble accuracy: 0.6956521739130435, F1: 0.5882352941176471.
+Epoch 17
+Train loss: 0.3818410038948059, train accuracy: 0.8515625
+Validating:
+Validate loss: 0.7027340157431845, validate accuracy: 0.7267080745341615, ensemble accuracy: 0.6956521739130435, F1: 0.5882352941176471.
+Epoch 18
+Train loss: 0.3314298391342163, train accuracy: 0.9296875
+Validating:
+Validate loss: 0.7486836554841225, validate accuracy: 0.6940993788819876, ensemble accuracy: 0.7391304347826086, F1: 0.6666666666666666.
+Epoch 19
+Train loss: 0.30663615465164185, train accuracy: 0.890625
+Validating:
+Validate loss: 0.7664829455547452, validate accuracy: 0.7018633540372671, ensemble accuracy: 0.7391304347826086, F1: 0.7.
+Epoch 20
+Train loss: 0.3376831114292145, train accuracy: 0.90625
+Validating:
+Validate loss: 0.7447373215456187, validate accuracy: 0.7313664596273292, ensemble accuracy: 0.6956521739130435, F1: 0.5882352941176471.
+Training Finished.
+############ Fold 10 Network accuracy: 0.6956521739130435
+[1.         0.86666667 0.8        0.8        0.86666667 0.86666667
+ 0.86666667 0.8        1.         0.69565217]
+Average accuracy: 0.856231884057971
+Full record:
+[{'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0}, {'accuracy': 0.8666666666666667, 'precision': 0.7777777777777778, 'recall': 1.0, 'f1': 0.875}, {'accuracy': 0.8, 'precision': 0.75, 'recall': 0.6, 'f1': 0.6666666666666666}, {'accuracy': 0.8, 'precision': 0.8571428571428571, 'recall': 0.75, 'f1': 0.8}, {'accuracy': 0.8666666666666667, 'precision': 0.875, 'recall': 0.875, 'f1': 0.875}, {'accuracy': 0.8666666666666667, 'precision': 1.0, 'recall': 0.6666666666666666, 'f1': 0.8}, {'accuracy': 0.8666666666666667, 'precision': 1.0, 'recall': 0.75, 'f1': 0.8571428571428571}, {'accuracy': 0.8, 'precision': 0.75, 'recall': 0.8571428571428571, 'f1': 0.8}, {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0}, {'accuracy': 0.6956521739130435, 'precision': 0.5555555555555556, 'recall': 0.625, 'f1': 0.5882352941176471}]
+Confusion Matrices:
+[array([[8, 0],
+       [0, 7]]), array([[6, 2],
+       [0, 7]]), array([[9, 1],
+       [2, 3]]), array([[6, 1],
+       [2, 6]]), array([[6, 1],
+       [1, 7]]), array([[9, 0],
+       [2, 4]]), array([[7, 0],
+       [2, 6]]), array([[6, 2],
+       [1, 6]]), array([[7, 0],
+       [0, 8]]), array([[11,  4],
+       [ 3,  5]])]
