@@ -1,0 +1,171 @@
+============================================================
+MODMA 128通道EEG → FP1/FPz/FP2 预处理 (增量保存)
+============================================================
+
+共 53 名受试者: MDD=24, HC=29
+
+[1/53] 2010002 MDD  加载 75189点 | ICA: EOG=3 | 已保存 (3×75189)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010002.png
+  QC图已保存
+
+[2/53] 2010004 MDD  加载 75339点 | ICA: EOG=4 | 已保存 (3×75339)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010004.png
+  QC图已保存
+
+[3/53] 2010005 MDD  加载 75226点 | ICA: EOG=6 | 已保存 (3×75226)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010005.png
+  QC图已保存
+
+[4/53] 2010006 MDD  加载 78639点 | ICA: EOG=2 | 已保存 (3×78639)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010006.png
+  QC图已保存
+
+[5/53] 2010008 MDD  加载 82651点 | ICA: EOG=1 | 已保存 (3×82651)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010008.png
+  QC图已保存
+
+[6/53] 2010010 MDD  加载 75101点 | ICA: EOG=4 | 已保存 (3×75101)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010010.png
+  QC图已保存
+
+[7/53] 2010011 MDD  加载 75126点 | ICA: EOG=3 | 已保存 (3×75126)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010011.png
+  QC图已保存
+
+[8/53] 2010012 MDD  加载 75126点 | ICA: EOG=3 | 已保存 (3×75126)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010012.png
+  QC图已保存
+
+[9/53] 2010013 MDD  加载 75176点 | ICA: EOG=2 | 已保存 (3×75176)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010013.png
+  QC图已保存
+
+[10/53] 2010015 MDD  加载 75652点 | ICA: EOG=2 | 已保存 (3×75652)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010015.png
+  QC图已保存
+
+[11/53] 2010016 MDD  加载 75201点 | ICA: EOG=1 | 已保存 (3×75201)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010016.png
+  QC图已保存
+
+[12/53] 2010018 MDD  加载 75351点 | ICA: EOG=2 | 已保存 (3×75351)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010018.png
+  QC图已保存
+
+[13/53] 2010019 MDD  加载 75401点 | ICA: EOG=2 | 已保存 (3×75401)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010019.png
+  QC图已保存
+
+[14/53] 2010021 MDD  加载 75127点 | ICA: EOG=3 | 已保存 (3×75127)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010021.png
+  QC图已保存
+
+[15/53] 2010022 MDD  加载 75276点 | ICA: EOG=2 | 已保存 (3×75276)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010022.png
+  QC图已保存
+
+[16/53] 2010023 MDD  加载 75089点 | ICA: EOG=2 | 已保存 (3×75089)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010023.png
+  QC图已保存
+
+[17/53] 2010024 MDD  加载 75389点 | ICA: EOG=2 | 已保存 (3×75389)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010024.png
+  QC图已保存
+
+[18/53] 2010025 MDD  加载 75176点 | ICA: EOG=3 | 已保存 (3×75176)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010025.png
+  QC图已保存
+
+[19/53] 2010026 MDD  加载 75126点 | ICA: EOG=8 | 已保存 (3×75126)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010026.png
+  QC图已保存
+
+[20/53] 2010028 MDD  加载 75114点 | ICA: EOG=2 | 已保存 (3×75114)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010028.png
+  QC图已保存
+
+[21/53] 2010030 MDD  加载 75402点 | ICA: EOG=2 | 已保存 (3×75402)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010030.png
+  QC图已保存
+
+[22/53] 2010033 MDD  加载 75289点 | ICA: EOG=3 | 已保存 (3×75289)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010033.png
+  QC图已保存
+
+[23/53] 2010034 MDD  加载 75151点 | ICA: EOG=2 | 已保存 (3×75151)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010034.png
+  QC图已保存
+
+[24/53] 2010036 MDD  加载 75114点 | ICA: EOG=2 | 已保存 (3×75114)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2010036.png
+  QC图已保存
+
+[25/53] 2020008 HC  加载 75101点 | ICA: EOG=8 | 已保存 (3×75101)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020008.png
+  QC图已保存
+
+[26/53] 2020010 HC  加载 76039点 | ICA: EOG=3 | 已保存 (3×76039)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020010.png
+  QC图已保存
+
+[27/53] 2020013 HC  加载 75251点 | ICA: EOG=4 | 已保存 (3×75251)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020013.png
+  QC图已保存
+
+[28/53] 2020014 HC  加载 75138点 | ICA: EOG=4 | 已保存 (3×75138)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020014.png
+  QC图已保存
+
+[29/53] 2020015 HC  加载 75139点 | ICA: EOG=2 | 已保存 (3×75139)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020015.png
+  QC图已保存
+
+[30/53] 2020016 HC  加载 75101点 | ICA: EOG=2 | 已保存 (3×75101)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020016.png
+  QC图已保存
+
+[31/53] 2020018 HC  加载 75189点 | ICA: EOG=3 | 已保存 (3×75189)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020018.png
+  QC图已保存
+
+[32/53] 2020019 HC  加载 75163点 | ICA: EOG=6 | 已保存 (3×75163)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020019.png
+  QC图已保存
+
+[33/53] 2020020 HC  加载 75376点 | ICA: EOG=3 | 已保存 (3×75376)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020020.png
+  QC图已保存
+
+[34/53] 2020021 HC  加载 75126点 | ICA: EOG=3 | 已保存 (3×75126)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020021.png
+  QC图已保存
+
+[35/53] 2020022 HC  加载 75139点 | ICA: EOG=2 | 已保存 (3×75139)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020022.png
+  QC图已保存
+
+[36/53] 2020023 HC  加载 75201点 | ICA: EOG=1 | 已保存 (3×75201)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020023.png
+  QC图已保存
+
+[37/53] 2020025 HC  加载 83876点 | ICA: EOG=4 | 已保存 (3×83876)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020025.png
+  QC图已保存
+
+[38/53] 2020026 HC  加载 75151点 | ICA: EOG=2 | 已保存 (3×75151)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020026.png
+  QC图已保存
+
+[39/53] 2020027 HC  加载 83164点 | ICA: EOG=2 | 已保存 (3×83164)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020027.png
+  QC图已保存
+
+[40/53] 2020029 HC  加载 75114点 | ICA: EOG=2 | 已保存 (3×75114)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2020029.png
+  QC图已保存
+
+[41/53] 2030002 HC  加载 75525点 | ICA: EOG=3 | 已保存 (3×75525)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030002.png
+  QC图已保存
+
+[42/53] 2030003 HC  加载 75513点 | ICA: EOG=5 | 已保存 (3×75513)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030003.png
+  QC图已保存
+
+[43/53] 2030004 HC  加载 75151点 | ICA: EOG=3 | 已保存 (3×75151)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030004.png
+  QC图已保存
+
+[44/53] 2030005 HC  加载 75126点 | ICA: EOG=4 | 已保存 (3×75126)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030005.png
+  QC图已保存
+
+[45/53] 2030006 HC  加载 75688点 | ICA: EOG=2 | 已保存 (3×75688)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030006.png
+  QC图已保存
+
+[46/53] 2030007 HC  加载 75750点 | ICA: EOG=3 | 已保存 (3×75750)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030007.png
+  QC图已保存
+
+[47/53] 2030009 HC  加载 75139点 | ICA: EOG=5 | 已保存 (3×75139)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030009.png
+  QC图已保存
+
+[48/53] 2030014 HC  加载 75188点 | ICA: EOG=2 | 已保存 (3×75188)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030014.png
+  QC图已保存
+
+[49/53] 2030017 HC  加载 75158点 | ICA: EOG=2 | 已保存 (3×75158)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030017.png
+  QC图已保存
+
+[50/53] 2030018 HC  加载 75164点 | ICA: EOG=5 | 已保存 (3×75164)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030018.png
+  QC图已保存
+
+[51/53] 2030019 HC  加载 75113点 | ICA: EOG=1 | 已保存 (3×75113)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030019.png
+  QC图已保存
+
+[52/53] 2030020 HC  加载 75127点 | ICA: EOG=5 | 已保存 (3×75127)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030020.png
+  QC图已保存
+
+[53/53] 2030021 HC  加载 75275点 | ICA: EOG=3 | 已保存 (3×75275)    可视化已保存: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/qc_figures/2030021.png
+  QC图已保存
+
+============================================================
+处理完成!
+  HDF5: /media/xiangnan/E/Linux/EDoc/Research/Dataset/MODMA/EEG_128channels_resting_lanzhou_2015/preprocessed/eeg_fp123_cleaned.h5
+  data:   (53, 3, 75089)  float64
+  labels: MDD=24, HC=29
+============================================================

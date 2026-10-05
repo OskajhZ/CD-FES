@@ -1,0 +1,466 @@
+===== Step 1: full_features_extract_and_dump =====
+Start: 2026年 07月 14日 星期二 20:45:05 CST
+Extracting Features ...   0%|          | 0/53 [00:00<?, ?it/s]  2%|▏         | 1/53 [00:35<30:57, 35.73s/it]  4%|▍         | 2/53 [01:13<31:38, 37.22s/it]  6%|▌         | 3/53 [01:52<31:27, 37.76s/it]  8%|▊         | 4/53 [02:30<31:05, 38.08s/it]  9%|▉         | 5/53 [03:09<30:37, 38.29s/it] 11%|█▏        | 6/53 [03:48<30:05, 38.42s/it] 13%|█▎        | 7/53 [04:26<29:26, 38.41s/it] 15%|█▌        | 8/53 [05:04<28:45, 38.35s/it] 17%|█▋        | 9/53 [05:43<28:11, 38.44s/it] 19%|█▉        | 10/53 [06:21<27:32, 38.43s/it] 21%|██        | 11/53 [07:00<26:56, 38.49s/it] 23%|██▎       | 12/53 [07:39<26:18, 38.49s/it] 25%|██▍       | 13/53 [08:17<25:39, 38.48s/it] 26%|██▋       | 14/53 [08:55<24:59, 38.45s/it] 28%|██▊       | 15/53 [09:34<24:17, 38.35s/it] 30%|███       | 16/53 [10:12<23:35, 38.27s/it] 32%|███▏      | 17/53 [10:50<22:57, 38.26s/it] 34%|███▍      | 18/53 [11:28<22:21, 38.33s/it] 36%|███▌      | 19/53 [12:07<21:45, 38.40s/it] 38%|███▊      | 20/53 [12:45<21:07, 38.40s/it] 40%|███▉      | 21/53 [13:24<20:31, 38.49s/it] 42%|████▏     | 22/53 [14:02<19:53, 38.48s/it] 43%|████▎     | 23/53 [14:42<19:21, 38.70s/it] 45%|████▌     | 24/53 [15:21<18:49, 38.93s/it] 47%|████▋     | 25/53 [16:00<18:07, 38.85s/it] 49%|████▉     | 26/53 [16:38<17:27, 38.78s/it] 51%|█████     | 27/53 [17:17<16:50, 38.86s/it] 53%|█████▎    | 28/53 [17:57<16:14, 38.97s/it] 55%|█████▍    | 29/53 [18:36<15:38, 39.10s/it] 57%|█████▋    | 30/53 [19:17<15:11, 39.61s/it] 58%|█████▊    | 31/53 [19:58<14:42, 40.13s/it] 60%|██████    | 32/53 [20:41<14:18, 40.88s/it] 62%|██████▏   | 33/53 [21:24<13:52, 41.61s/it] 64%|██████▍   | 34/53 [22:09<13:27, 42.52s/it] 66%|██████▌   | 35/53 [22:53<12:51, 42.89s/it] 68%|██████▊   | 36/53 [23:37<12:16, 43.31s/it] 70%|██████▉   | 37/53 [24:16<11:14, 42.17s/it] 72%|███████▏  | 38/53 [24:51<09:58, 39.93s/it] 74%|███████▎  | 39/53 [25:26<08:56, 38.33s/it] 75%|███████▌  | 40/53 [26:00<08:03, 37.22s/it] 77%|███████▋  | 41/53 [26:35<07:17, 36.42s/it] 79%|███████▉  | 42/53 [27:09<06:34, 35.84s/it] 81%|████████  | 43/53 [27:44<05:55, 35.56s/it] 83%|████████▎ | 44/53 [28:20<05:19, 35.55s/it] 85%|████████▍ | 45/53 [28:57<04:48, 36.09s/it] 87%|████████▋ | 46/53 [29:35<04:15, 36.50s/it] 89%|████████▊ | 47/53 [30:12<03:40, 36.79s/it] 91%|█████████ | 48/53 [30:50<03:05, 37.08s/it] 92%|█████████▏| 49/53 [31:28<02:29, 37.48s/it] 94%|█████████▍| 50/53 [32:06<01:53, 37.72s/it] 96%|█████████▌| 51/53 [32:47<01:17, 38.54s/it] 98%|█████████▊| 52/53 [33:27<00:39, 39.11s/it]100%|██████████| 53/53 [34:08<00:00, 39.55s/it]100%|██████████| 53/53 [34:08<00:00, 38.65s/it]
+Done
+Feature saved as "full_feature.hdf5".
+full_feature.hdf5 generated successfully
+
+===== Step 2: feature_experiment_one_by_one =====
+Start: 2026年 07月 14日 星期二 21:19:20 CST
+max_frequency:
+    On SVM
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [1.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.8], 'precision': [1.0, 0.0, 1.0, 1.0, 0.6, 0.6, 0.0, 0.0, 0.5, 1.0], 'recall': [1.0, 0.0, 0.3333333333333333, 0.3333333333333333, 1.0, 1.0, 0.0, 0.0, 0.5, 0.5], 'f1': [1.0, 0.0, 0.5, 0.5, 0.75, 0.75, 0.0, 0.0, 0.5, 0.6666666666666666]}
+        For accuracy: 66.0$\pm$4.27 %
+        For precision: 57.0$\pm$13.83 %
+        For recall: 46.67$\pm$13.1 %
+        For f1: 46.67$\pm$11.26 %
+    On KNN
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [1.0, 0.6, 0.4, 0.4, 0.6, 0.4, 0.8, 0.6, 0.8, 0.6], 'precision': [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0], 'recall': [1.0, 0.0, 0.0, 0.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.5, 0.0], 'f1': [1.0, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0]}
+        For accuracy: 62.0$\pm$6.29 %
+        For precision: 30.0$\pm$15.28 %
+        For recall: 18.33$\pm$10.67 %
+        For f1: 21.67$\pm$11.67 %
+    On DT
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.8, 0.4, 0.6, 0.4, 0.4, 0.4, 0.6, 0.8, 0.4], 'precision': [0.5, 1.0, 0.0, 1.0, 0.5, 0.0, 0.0, 0.0, 1.0, 0.0], 'recall': [1.0, 0.5, 0.0, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0, 0.5, 0.0], 'f1': [0.6666666666666666, 0.6666666666666666, 0.0, 0.5, 0.4, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0]}
+        For accuracy: 56.0$\pm$5.81 %
+        For precision: 40.0$\pm$14.53 %
+        For recall: 26.67$\pm$10.6 %
+        For f1: 29.0$\pm$10.01 %
+    On RF
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [1.0, 0.6, 0.4, 0.4, 0.4, 0.4, 0.6, 0.6, 0.6, 0.6], 'precision': [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$5.81 %
+        For precision: 10.0$\pm$10.0 %
+        For recall: 10.0$\pm$10.0 %
+        For f1: 10.0$\pm$10.0 %
+    On XGBoost
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [1.0, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.6, 0.6, 0.6], 'precision': [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 58.0$\pm$6.29 %
+        For precision: 10.0$\pm$10.0 %
+        For recall: 10.0$\pm$10.0 %
+        For f1: 10.0$\pm$10.0 %
+centroid_frequenct:
+    On SVM
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.6, 0.6, 0.6], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$4.99 %
+        For precision: 0.0$\pm$0.0 %
+        For recall: 0.0$\pm$0.0 %
+        For f1: 0.0$\pm$0.0 %
+    On KNN
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.8, 0.6, 0.6, 0.6], 'precision': [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [0.0, 0.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$4.0 %
+        For precision: 10.0$\pm$10.0 %
+        For recall: 3.33$\pm$3.33 %
+        For f1: 5.0$\pm$5.0 %
+    On DT
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.8, 0.4, 0.2, 0.0, 0.6, 0.4, 0.4], 'precision': [0.0, 1.0, 0.5, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.3333333333333333], 'recall': [0.0, 0.5, 0.3333333333333333, 0.6666666666666666, 0.3333333333333333, 0.0, 0.0, 0.0, 0.0, 0.5], 'f1': [0.0, 0.6666666666666666, 0.4, 0.8, 0.4, 0.0, 0.0, 0.0, 0.0, 0.4]}
+        For accuracy: 44.0$\pm$7.77 %
+        For precision: 33.33$\pm$12.91 %
+        For recall: 23.33$\pm$8.31 %
+        For f1: 26.67$\pm$9.74 %
+    On RF
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.6, 0.6, 0.6], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$4.99 %
+        For precision: 0.0$\pm$0.0 %
+        For recall: 0.0$\pm$0.0 %
+        For f1: 0.0$\pm$0.0 %
+    On XGBoost
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.6, 0.4, 0.6, 0.6, 0.6, 0.6], 'precision': [0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$4.0 %
+        For precision: 10.0$\pm$10.0 %
+        For recall: 3.33$\pm$3.33 %
+        For f1: 5.0$\pm$5.0 %
+absolute_power:
+    On SVM
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 0.6, 0.4, 0.4, 0.6, 0.6, 0.4, 0.6, 0.2, 0.0], 'precision': [0.25, 0.5, 0.5, 0.5, 1.0, 1.0, 0.0, 0.0, 0.25, 0.0], 'recall': [1.0, 0.5, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.5, 0.0], 'f1': [0.4, 0.5, 0.4, 0.4, 0.5, 0.5, 0.0, 0.0, 0.3333333333333333, 0.0]}
+        For accuracy: 42.0$\pm$6.29 %
+        For precision: 40.0$\pm$11.9 %
+        For recall: 33.33$\pm$9.62 %
+        For f1: 30.33$\pm$6.84 %
+    On KNN
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.6, 0.6, 0.2, 0.6, 0.4, 0.6, 0.4], 'precision': [0.25, 1.0, 0.5, 1.0, 1.0, 0.0, 0.3333333333333333, 0.0, 0.5, 0.3333333333333333], 'recall': [1.0, 0.5, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0, 1.0, 0.0, 0.5, 0.5], 'f1': [0.4, 0.6666666666666666, 0.4, 0.5, 0.5, 0.0, 0.5, 0.0, 0.5, 0.4]}
+        For accuracy: 50.0$\pm$5.37 %
+        For precision: 49.17$\pm$12.33 %
+        For recall: 45.0$\pm$10.84 %
+        For f1: 38.67$\pm$6.91 %
+    On DT
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.2, 0.8, 0.4, 0.4, 0.6, 0.2, 0.4, 0.6, 0.4, 0.4], 'precision': [0.0, 0.6666666666666666, 0.5, 0.0, 1.0, 0.0, 0.25, 0.0, 0.3333333333333333, 0.3333333333333333], 'recall': [0.0, 1.0, 0.3333333333333333, 0.0, 0.3333333333333333, 0.0, 1.0, 0.0, 0.5, 0.5], 'f1': [0.0, 0.8, 0.4, 0.0, 0.5, 0.0, 0.4, 0.0, 0.4, 0.4]}
+        For accuracy: 44.0$\pm$5.81 %
+        For precision: 30.83$\pm$10.69 %
+        For recall: 36.67$\pm$12.37 %
+        For f1: 29.0$\pm$8.75 %
+    On RF
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.6, 0.6, 0.4, 0.4, 0.6, 0.6, 0.4], 'precision': [0.25, 0.6666666666666666, 0.5, 1.0, 1.0, 0.0, 0.25, 0.5, 0.5, 0.3333333333333333], 'recall': [1.0, 1.0, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0, 1.0, 0.5, 0.5, 0.5], 'f1': [0.4, 0.8, 0.4, 0.5, 0.5, 0.0, 0.4, 0.5, 0.5, 0.4]}
+        For accuracy: 52.0$\pm$4.42 %
+        For precision: 50.0$\pm$10.17 %
+        For recall: 55.0$\pm$10.84 %
+        For f1: 44.0$\pm$6.18 %
+    On XGBoost
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.8, 0.6, 0.6, 0.6, 0.8, 0.2, 0.4], 'precision': [0.25, 0.6666666666666666, 0.5, 1.0, 1.0, 1.0, 0.3333333333333333, 0.6666666666666666, 0.0, 0.3333333333333333], 'recall': [1.0, 1.0, 0.3333333333333333, 0.6666666666666666, 0.3333333333333333, 0.3333333333333333, 1.0, 1.0, 0.0, 0.5], 'f1': [0.4, 0.8, 0.4, 0.8, 0.5, 0.5, 0.5, 0.8, 0.0, 0.4]}
+        For accuracy: 56.0$\pm$6.53 %
+        For precision: 57.5$\pm$11.14 %
+        For recall: 61.67$\pm$11.67 %
+        For f1: 51.0$\pm$7.81 %
+Renyi_entropy:
+    On SVM
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.6, 0.6, 0.8, 0.2, 0.8, 0.2, 0.2], 'precision': [0.25, 0.6666666666666666, 0.5, 0.6666666666666666, 1.0, 1.0, 0.0, 0.6666666666666666, 0.25, 0.25], 'recall': [1.0, 1.0, 0.3333333333333333, 0.6666666666666666, 0.3333333333333333, 0.6666666666666666, 0.0, 1.0, 0.5, 0.5], 'f1': [0.4, 0.8, 0.4, 0.6666666666666666, 0.5, 0.8, 0.0, 0.8, 0.3333333333333333, 0.3333333333333333]}
+        For accuracy: 50.0$\pm$8.03 %
+        For precision: 52.5$\pm$10.62 %
+        For recall: 60.0$\pm$10.6 %
+        For f1: 50.33$\pm$8.32 %
+    On KNN
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 1.0, 0.4, 0.4, 0.6, 0.2, 0.4, 0.8, 0.6, 0.4], 'precision': [0.25, 1.0, 0.5, 0.0, 1.0, 0.0, 0.25, 0.6666666666666666, 0.5, 0.3333333333333333], 'recall': [1.0, 1.0, 0.3333333333333333, 0.0, 0.3333333333333333, 0.0, 1.0, 1.0, 0.5, 0.5], 'f1': [0.4, 1.0, 0.4, 0.0, 0.5, 0.0, 0.4, 0.8, 0.5, 0.4]}
+        For accuracy: 52.0$\pm$7.42 %
+        For precision: 45.0$\pm$11.33 %
+        For recall: 56.67$\pm$12.96 %
+        For f1: 44.0$\pm$9.68 %
+    On DT
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.2, 1.0, 0.4, 0.4, 0.8, 0.4, 0.4, 0.6, 0.0, 0.4], 'precision': [0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.25, 0.5, 0.0, 0.3333333333333333], 'recall': [0.0, 1.0, 0.0, 0.0, 0.6666666666666666, 0.0, 1.0, 0.5, 0.0, 0.5], 'f1': [0.0, 1.0, 0.0, 0.0, 0.8, 0.0, 0.4, 0.5, 0.0, 0.4]}
+        For accuracy: 46.0$\pm$8.97 %
+        For precision: 30.83$\pm$12.79 %
+        For recall: 36.67$\pm$13.33 %
+        For f1: 31.0$\pm$11.78 %
+    On RF
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.6, 0.6, 0.4, 0.4, 0.6, 0.4, 0.4], 'precision': [0.25, 0.6666666666666666, 0.5, 1.0, 1.0, 0.0, 0.25, 0.5, 0.3333333333333333, 0.3333333333333333], 'recall': [1.0, 1.0, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0, 1.0, 0.5, 0.5, 0.5], 'f1': [0.4, 0.8, 0.4, 0.5, 0.5, 0.0, 0.4, 0.5, 0.4, 0.4]}
+        For accuracy: 50.0$\pm$4.47 %
+        For precision: 48.33$\pm$10.3 %
+        For recall: 55.0$\pm$10.84 %
+        For f1: 43.0$\pm$6.16 %
+    On XGBoost
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.6, 0.6, 0.4, 0.4, 0.6, 0.4, 0.4], 'precision': [0.25, 0.6666666666666666, 0.5, 1.0, 1.0, 0.0, 0.25, 0.5, 0.3333333333333333, 0.3333333333333333], 'recall': [1.0, 1.0, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.0, 1.0, 0.5, 0.5, 0.5], 'f1': [0.4, 0.8, 0.4, 0.5, 0.5, 0.0, 0.4, 0.5, 0.4, 0.4]}
+        For accuracy: 50.0$\pm$4.47 %
+        For precision: 48.33$\pm$10.3 %
+        For recall: 55.0$\pm$10.84 %
+        For f1: 43.0$\pm$6.16 %
+correlation_dimension:
+    On SVM
+        Raw result: {'accuracy': [0.6, 0.4, 0.6, 0.6, 0.6, 0.8, 0.6, 0.0, 0.2, 0.0], 'precision': [0.0, 0.3333333333333333, 1.0, 0.6666666666666666, 1.0, 1.0, 0.3333333333333333, 0.0, 0.0, 0.0], 'recall': [0.0, 0.5, 0.3333333333333333, 0.6666666666666666, 0.3333333333333333, 0.6666666666666666, 1.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.4, 0.5, 0.6666666666666666, 0.5, 0.8, 0.5, 0.0, 0.0, 0.0]}
+        For accuracy: 44.0$\pm$8.84 %
+        For precision: 43.33$\pm$14.1 %
+        For recall: 35.0$\pm$11.24 %
+        For f1: 33.67$\pm$9.78 %
+    On KNN
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.6, 0.4, 0.4, 0.4, 0.4, 0.4, 0.6, 0.4, 0.4, 0.8], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6666666666666666]}
+        For accuracy: 48.0$\pm$4.42 %
+        For precision: 10.0$\pm$10.0 %
+        For recall: 5.0$\pm$5.0 %
+        For f1: 6.67$\pm$6.67 %
+    On DT
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 0.8, 0.4, 0.4, 0.6, 0.4, 0.6, 0.6, 0.6, 0.6], 'precision': [0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.5, 0.0], 'recall': [0.0, 0.5, 0.0, 0.0, 0.3333333333333333, 0.0, 0.0, 0.0, 0.5, 0.0], 'f1': [0.0, 0.6666666666666666, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.5, 0.0]}
+        For accuracy: 54.0$\pm$4.27 %
+        For precision: 25.0$\pm$13.44 %
+        For recall: 13.33$\pm$6.94 %
+        For f1: 16.67$\pm$8.61 %
+    On RF
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.6, 0.6, 0.6], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$4.99 %
+        For precision: 0.0$\pm$0.0 %
+        For recall: 0.0$\pm$0.0 %
+        For f1: 0.0$\pm$0.0 %
+    On XGBoost
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.6, 0.8, 0.4], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0]}
+        For accuracy: 56.0$\pm$5.81 %
+        For precision: 10.0$\pm$10.0 %
+        For recall: 5.0$\pm$5.0 %
+        For f1: 6.67$\pm$6.67 %
+C0_complexity:
+    On SVM
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.6, 0.6, 0.4, 0.6, 0.6, 0.6, 0.4, 0.8], 'precision': [0.0, 0.0, 1.0, 1.0, 0.5, 1.0, 0.0, 0.0, 0.0, 1.0], 'recall': [0.0, 0.0, 0.3333333333333333, 0.3333333333333333, 0.6666666666666666, 0.3333333333333333, 0.0, 0.0, 0.0, 0.5], 'f1': [0.0, 0.0, 0.5, 0.5, 0.5714285714285714, 0.5, 0.0, 0.0, 0.0, 0.6666666666666666]}
+        For accuracy: 60.0$\pm$4.22 %
+        For precision: 45.0$\pm$15.72 %
+        For recall: 21.67$\pm$7.88 %
+        For f1: 27.38$\pm$9.26 %
+    On KNN
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.4, 0.8, 0.6], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.0, 1.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.5, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0, 0.6666666666666666, 0.0]}
+        For accuracy: 56.0$\pm$5.81 %
+        For precision: 15.0$\pm$10.67 %
+        For recall: 15.0$\pm$10.67 %
+        For f1: 13.33$\pm$8.89 %
+    On DT
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.6, 0.8, 0.4, 0.8], 'precision': [0.25, 0.0, 0.5, 0.0, 0.5, 0.0, 0.0, 1.0, 0.3333333333333333, 0.6666666666666666], 'recall': [1.0, 0.0, 0.3333333333333333, 0.0, 0.3333333333333333, 0.0, 0.0, 0.5, 0.5, 1.0], 'f1': [0.4, 0.0, 0.4, 0.0, 0.4, 0.0, 0.0, 0.6666666666666666, 0.4, 0.8]}
+        For accuracy: 50.0$\pm$5.37 %
+        For precision: 32.5$\pm$10.86 %
+        For recall: 36.67$\pm$12.37 %
+        For f1: 30.67$\pm$9.33 %
+    On RF
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.6, 0.6, 0.6], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$4.99 %
+        For precision: 0.0$\pm$0.0 %
+        For recall: 0.0$\pm$0.0 %
+        For f1: 0.0$\pm$0.0 %
+    On XGBoost
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/xiangnan/anaconda3/envs/py312/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+        Raw result: {'accuracy': [0.8, 0.6, 0.4, 0.4, 0.4, 0.4, 0.8, 0.6, 0.6, 0.6], 'precision': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.0, 0.0, 0.0], 'recall': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0], 'f1': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6666666666666666, 0.0, 0.0, 0.0]}
+        For accuracy: 56.0$\pm$4.99 %
+        For precision: 5.0$\pm$5.0 %
+        For recall: 10.0$\pm$10.0 %
+        For f1: 6.67$\pm$6.67 %
+Single feature experiment done
+
+===== ALL DONE at 2026年 07月 14日 星期二 21:22:11 CST =====
